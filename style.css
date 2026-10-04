@@ -225,6 +225,8 @@ main {
 .acrylic:hover {
     border-color: white; 
     background-color: rgb(255, 255, 255, 0.05); 
+    box-shadow: 
+        0 1px 20px rgb(14, 17, 34, 0.5); 
 }
 
 #greet {
@@ -343,6 +345,18 @@ footer #social {
 
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(0deg, #297c98 0%, #354377 100%); 
+}
+
+#goTop {
+    position: fixed; 
+    color: white; 
+    font-size: 30px; 
+    border-radius: 30px; 
+    width: 100px; 
+    bottom: 20px; 
+    right: 225px; 
+    display: flex; 
+    justify-content: center; 
 }
 
 @media (max-width: 600px) {
